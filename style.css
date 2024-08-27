@@ -1,0 +1,46 @@
+*{
+  padding:0;
+  margin:0;
+box-sizing: border-box;
+}
+
+body{
+  width:100%;
+  height:100%;
+background-color: #151515;
+}
+.main{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding:10px;
+ 
+}
+.nokotan{
+  margin:25px;
+  user-select: none !important;
+  
+}
+.nokotan img:hover{
+  cursor: pointer;
+}
+
+
+
+.score{
+  font-size: 1.5rem;
+  color: rgb(221, 204, 204);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score img{
+  margin-right:1rem;
+  width:40px;
+}
+
